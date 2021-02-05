@@ -44,12 +44,14 @@ class HomeState extends State<Home>{
                         leading: Icon(Icons.person),
                       );
                     },
+
                   )
               :Center(
                 child: CircularProgressIndicator(),
               );
             },
           ),
+
         ),
       ),
     );
